@@ -9,3 +9,85 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+div.login-form {
+    background-color: #F7F5F9;
+    width: 401px;
+    border-radius: 12px;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+    padding: 40px;
+}
+
+div.login-form > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: #3B3D43;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+div.login-form input {
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
+    padding-left: 14px;
+
+    color: black;
+    height: 48px;
+    width: 100%;
+    border: 0;
+    background-color: white;
+    margin-bottom: 25px;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+}
+
+div.login-form input.field {
+    border: 1px solid white;
+}
+
+div.login-form input.field:hover {
+    border: 1px solid #854FC8;
+}
+
+div.login-form input.field:focus {
+    border: 1px solid #854FC8;
+}
+
+
+div.login-form input.btn {
+    color: white;
+    text-transform: uppercase;
+    background: #6979F8;
+    border-radius: 6px;
+
+    margin-bottom: 0;
+    padding: 13px 116px;
+    border: 1px solid #6979F8;
+}
+
+div.login-form input.btn:hover {
+    border: 1px solid #3d4cb3;
+}
+
+div.login-form input.btn:focus {
+    border: 1px solid black;
+}
+
+
+div.login-form input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #D0C9D6;
+}
